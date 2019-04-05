@@ -43,15 +43,15 @@ For x86 systems.
 
 1. In your browser, download the Anaconda installer for Linux.
 
-  1a. Optional: Verify data integrity with MD5 or SHA-256. (For more information on hashes, see cryptographic hash validation.)
+&nbsp;&nbsp;&nbsp;&nbsp;  1a. Optional: Verify data integrity with MD5 or SHA-256. (For more information on hashes, see cryptographic hash validation.)
 
-  1b. Run the following:
+&nbsp;&nbsp;&nbsp;&nbsp; 1b. Run the following:
 
-  1c. md5sum /path/filename  OR:  sha256sum /path/filename
+&nbsp;&nbsp;&nbsp;&nbsp; 1c. md5sum /path/filename  OR:  sha256sum /path/filename
 
-  1d. NOTE: Replace /path/filename with the actual path and filename of the file you downloaded.
+&nbsp;&nbsp;&nbsp;&nbsp; 1d. NOTE: Replace /path/filename with the actual path and filename of the file you downloaded.
 
-  1e. Optional: Verify results against the proper hash page to make sure the hashes match.
+&nbsp;&nbsp;&nbsp;&nbsp; 1e. Optional: Verify results against the proper hash page to make sure the hashes match.
 
 2. Enter the following to install Anaconda for Python 3.7:
 
@@ -61,11 +61,11 @@ For x86 systems.
 
     bash ~/Downloads/Anaconda2-5.3.0-Linux-x86_64.sh
 
-  2b. NOTE: Include the bash command regardless of whether or not you are using Bash shell.
+&nbsp;&nbsp;&nbsp;&nbsp; 2b. NOTE: Include the bash command regardless of whether or not you are using Bash shell.
 
-  2c. NOTE: If you did not download to your Downloads directory, replace ~/Downloads/ with the path to the file you downloaded.
+&nbsp;&nbsp; 2c. NOTE: If you did not download to your Downloads directory, replace ~/Downloads/ with the path to the file you downloaded.
 
-  2d. NOTE: Choose “Install Anaconda as a user” unless root privileges are required.
+&nbsp;&nbsp;&nbsp;&nbsp; 2d. NOTE: Choose “Install Anaconda as a user” unless root privileges are required.
 
 3. The installer prompts “In order to continue the installation process, please review the license agreement.” Click Enter to view license terms. Scroll to the bottom of the license terms and enter “Yes” to agree.
 
@@ -73,18 +73,18 @@ For x86 systems.
 
 5. The installer prompts “Do you wish the installer to prepend the Anaconda<2 or 3> install location to PATH in your /home/<user>/.bashrc ?” Enter Yes.
 
-  5b. NOTE: If you enter “No”, you must manually add the path to Anaconda or conda will not work. See FAQ.
+&nbsp;&nbsp;&nbsp;&nbsp; 5b. NOTE: If you enter “No”, you must manually add the path to Anaconda or conda will not work. See FAQ.
 
 6. The installer describes Microsoft VS Code and asks if you would like to install VS Code. Enter yes or no. If you selected yes, follow the instructions on screen to complete the VS Code installation.
 
-  6b. NOTE: Installing VS Code with the Anaconda installer requires an internet connection. Offline users may be able to find an offline VS Code installer from Microsoft.
+&nbsp;&nbsp;&nbsp;&nbsp; 6b. NOTE: Installing VS Code with the Anaconda installer requires an internet connection. Offline users may be able to find an offline VS Code installer from Microsoft.
 
-  6c. The installer finishes and displays “Thank you for installing Anaconda<2 or 3>!”
+&nbsp;&nbsp;&nbsp;&nbsp; 6c. The installer finishes and displays “Thank you for installing Anaconda<2 or 3>!”
 
 7. Close and open your terminal window for the installation to take effect, or you can enter the command source ~/.bashrc.
 
 8. After your install is complete, verify it by opening Anaconda Navigator, a program that is included with Anaconda: Open a Terminal window and type anaconda-navigator. 
 
-  8b. If Navigator opens, you have successfully installed Anaconda. If not, check that you completed each step above.
+&nbsp;&nbsp;&nbsp;&nbsp; 8b. If Navigator opens, you have successfully installed Anaconda. If not, check that you completed each step above.
   
-  8c. If you have completed each step above and it still doesn't load, the script is in the bin folder and can be loaded manually.
+&nbsp;&nbsp;&nbsp;&nbsp; 8c. If you have completed each step above and it still doesn't load, the script is in the bin folder and can be loaded manually.
